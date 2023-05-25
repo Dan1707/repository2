@@ -41,4 +41,17 @@
 }
 .block__text {
   font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+  .block__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .block__item {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
